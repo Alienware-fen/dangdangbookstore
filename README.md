@@ -1,18 +1,17 @@
-# dangdang
+【推荐手机观看效果更佳】
 
-> A Vue.js project
+一.项目简介 ：使用Vue框架结合Mint-ui、Element-ui、Swiper组件库并且采用Flex布局模仿当当网上书店的小型项目
 
-## Build Setup
+二.项目页面组成 ： 首页 -- 分类 -- 我的 -- 秒杀（通过首页的秒杀进入） -- 详情页 （通过首页的 “文艺小情怀” 进入）
 
-``` bash
-# install dependencies
-npm install
+三.核心开发思想 :模块化开发。一个页面分成单一的组件，组件内部可以根据功能的不同再细化成不同的组件
 
-# serve with hot reload at localhost:8080
-npm run dev
+四.项目技术 ： 1.懒加载 ① 图片懒加载： 将图片的src属性换成 v-lazy 属性，实现图片的懒加载，从而提高访问速度 ② 路由懒加载：本项目主要采用Vue异步加载的方式为路由配置懒加载，只有被请求的路由才会渲染到页面中而不是一股脑加载全部路由
 
-# build for production with minification
-npm run build
-```
+2.路由 ① 路由传参：分类页面中，由于布局基本一致，只是换了数据 ，通过路由传参的方式，由参数决定该页面显示哪部分的内容
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+3.axios：使用axios来实现从后台获取数据
+
+4.Flex布局：该项目中的布局大部分采用Flex实现
+
+五.项目效果 1.轮播图 + 滑动轮播：使用swiper组件库实现 2.倒计时：通过内置的时间函数配合mounted钩子函数实现 3.点击展开收起菜单：通过数据和计算属性实现 4.布局：Flex布局
