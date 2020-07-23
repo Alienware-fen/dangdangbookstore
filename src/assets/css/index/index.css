@@ -1,0 +1,42 @@
+*{
+    margin:0px;
+    padding:0px;
+    list-style: none;
+}
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.warp-link{
+    width:100%;
+    background-color: #fcfcfc;
+    border-top: 1px solid #e3e3e3;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right:0px;
+    display: flex;
+    z-index:3;
+    justify-content:space-around;
+}
+.warp-link p{
+    margin:0.5em 0px;
+}
+
+.warp-link a{
+    text-decoration: none;
+    color:#4D525D;
+    font-size:12px;
+    text-align:center;
+}
+
+.warp-link span{
+    font-size:17px;
+}
+.warp-link>.router-link-active{
+    color: red;
+}

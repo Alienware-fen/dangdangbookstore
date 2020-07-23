@@ -1,0 +1,239 @@
+*{
+    margin:0px;
+    padding:0px;
+    list-style: none;
+}
+.book{
+    margin-bottom: 56px;
+    width: 100%;
+    nav{
+        display: flex;
+        justify-content: space-between;
+        margin:10px 5px 0px;
+        img{
+            transform: scale(0.6);
+        }
+        img:nth-of-type(2){
+            transform: scale(0.5);
+        }
+        .txt-link{
+            width: 55%;
+            display: flex;
+            justify-content: space-between;
+            li{
+                padding:5px;
+              a{
+                    text-decoration: none;
+                    color: #3C3C3C;
+                    font-size: 1rem;
+                    padding-bottom: 5px;
+                }  
+                >.router-link-active{
+                    border-bottom: 1px solid #FF8161;
+                    color: #FF8161;
+                }
+            }
+            
+            
+        }
+    }
+    .bottom-fix{
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        height: 53px;
+        display: flex;
+        justify-content: space-between;
+        border-top:1px solid rgba(229,229,229,0.93);
+        padding-bottom: 1%;
+        .warp-icon{
+            margin: auto 0px;
+            width: 50%;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            box-sizing: border-box;
+            a{
+                text-decoration: none;
+                img{
+                    transform: scale(0.5);
+                }
+                p{
+                    color: #4D525D;
+                    font-size: 0.7rem;
+                    margin-top: -30%;
+                }
+            }
+            
+        }
+        .warp-btn{
+            width: 50%;
+            margin: auto 0px;
+            text-align: center;
+            outline: none;
+            display: flex;
+            justify-content: space-between;
+            .buy{
+                width: 50%;
+                height: 56px;
+                background-color: #FFBE23;
+                color: white;
+                border:none;
+            }
+            .cart{
+                width: 50%;
+                height: 56px;
+                background-color: #F3554B;
+                color: white;
+                border:none;
+            }
+        }
+    }
+    main{
+        padding:0px;
+        position: relative;
+        .swiper-container{
+            width: 100%;
+            border-top: 1px solid rgba(155, 154, 154, 0.452);
+            border-bottom: 1px solid rgba(155, 154, 154, 0.452);
+        }
+        .banner-img{
+            width: 100%;
+        }
+        .free-read{
+            position: absolute;
+            bottom: 35px;
+            right: -2px;
+            background-color: white;
+            border:1px solid #FF8161;
+            color: #FF8161;
+            border-radius:.8rem 0rem 0rem .8rem;
+            z-index: 1;
+            padding: 5px;
+        }
+    }
+    section{
+        .warp-desc{
+            width: 100%;
+            padding-top: 5%;
+            .top{
+                position: relative;
+                text-align: left;
+                .top-txt{
+                margin: 0.25rem 0.5rem 0.2rem 4rem;
+                font-size: 1rem;
+                color: #4d525d;
+                text-overflow: ellipsis;
+                word-break: break-all;
+            }
+            .top-txt:before{
+                content: "";
+                width: 38%;
+                height: 45%;
+                background: url('../../img/bookDetails/icon_zy.png') no-repeat;
+                position: absolute;
+                top: -0.5rem;
+                left: -1.6rem;
+                transform: scale(0.59);
+            }
+            .cen-txt{
+                margin: 0.25rem 0.5rem 0.2rem 0rem;
+                line-height: 1rem;
+                color: rgb(150,150,150);
+                font-size: 0.8rem;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                word-break: break-all;
+            }
+            .bot-txt{
+                margin: 0.2rem 0.5rem .5rem 0rem;
+                font-size: 0.7rem;
+                color: rgb(255,70,60);
+                text-decoration: underline;
+            }
+            }
+            .cen{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                
+                .txt-left{
+                    display: flex;
+                    flex-flow: column;
+                    .txt-top span:nth-of-type(1){
+                        font-size: 1rem;
+                        padding-right: 5px;
+                        color: #FF463C;
+                    }
+                    .txt-top span:nth-of-type(2){
+                        color: #969696;
+                        margin-top: 0.2rem;
+                        font-size: 0.8rem;
+                    }
+                    .txt-top span:nth-of-type(3){
+                        font-size: 0.7rem;
+                        color: #222222;
+                        padding: 0.1rem 0.2rem;
+                        border: 1px solid #222222;
+                        border-radius: 12px;
+                    }
+                    .txt-bot{
+                        padding-top: .3rem;
+                        color: #969696;
+                        font-size: .65rem;
+                    }
+                    .txt-bot span:nth-of-type(2){
+                        text-decoration: line-through;
+                    }
+                }
+                .txt-rig{
+                    color: #ff8161;
+                    font-size: 0.9rem;
+                    .line{
+                        border-left:1px solid #dcdcdc;
+                        padding-left: 10px;
+                    }
+                }
+                
+            }
+            .rate{
+                display: flex;
+                margin-top: 5%;
+                background-color:rgb(248,248,248) ;
+                padding: 0.55rem 0.5rem;
+                border-bottom: 1px solid #f5f5f5;
+                border-top: 1px solid #f5f5f5;
+                justify-content: space-between;
+                .score{
+                    .first{
+                        display: flex;
+                        flex-direction: row;
+                        color: #FF8161; 
+                    }
+                    .second{
+                        margin-top: 2%;
+                        font-size: 0.8rem;
+                        span:nth-of-type(1){
+                            color: #B4B4B4;
+                        }
+                        span:nth-of-type(2){
+                            color: #FF8161;
+                        }
+                    }
+                }
+                .talk{
+                    margin:auto 0px;
+                    p{
+                        color: #FF8161;
+                        padding: 0.3rem;
+                        border: 1px solid #FF8161;
+                        border-radius: 20px;
+                        text-align: center;
+                        font-size: 0.6rem;
+                    }
+                }
+            }
+        }
+    }
+}

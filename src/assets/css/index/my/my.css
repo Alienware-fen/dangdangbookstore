@@ -1,0 +1,288 @@
+*{
+    list-style: none;
+    margin: 0px;
+    padding:0px;
+}
+.my{
+    font-size: 62.5%;
+    background-color: #E6E6E6;
+}
+/* 头部 */
+.v-header{
+    justify-content:space-between;
+    padding:10px 10px 0px 10px;
+}
+/* 头部文字 */
+.v-header .txt{
+    font-size: 1rem;
+}
+/* 返回 更多按钮 */
+.back,.more{
+    transform:scale(0.5)
+}
+
+/* 包裹图片的div */
+/* 图片 */
+main{
+    padding-bottom: 0.5rem;
+}
+main .warp-img{
+    border-top:2px solid #eee;
+    /* 登陆注册定位 */
+    position: relative;
+}
+.warp-img>img{
+    width:100%;
+    height:auto;
+}
+/* 登陆注册 */
+.warp-img .login{
+    position: absolute;
+    border: 1px solid white;
+    padding: 0.6rem 1rem;
+    border-radius: 21px;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);  
+}
+
+.warp-img .login>a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+}
+
+/* 收藏店铺 */
+.warp-li{
+    margin-top: 0.6rem;
+    justify-content:space-around;
+    text-align: center;
+}
+.warp-li .li-border{
+    border-left: 1px solid rgba(128, 128, 128, 0.137);
+    border-right: 1px solid rgba(128, 128, 128, 0.137);
+    padding:0px 2rem;
+}
+.warp-li a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* 我的订单 */
+.warp-order {
+    margin-top: 0.6rem;
+    padding: 0.6rem 2rem;
+    border-top: 1px solid rgba(128, 128, 128, 0.034);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.034);
+    justify-content:space-between ;
+    position: relative;
+}
+
+.warp-order a{
+    text-decoration: none;
+    color: #999;
+}
+.warp-order .order{
+    color: #4D525D;
+    font-size: 0.8rem;
+}
+
+/* 我的订单图标 */
+.warp-order .order::before{ 
+    background: url('../../../img/login/order.png') no-repeat;
+    top: -0.9rem;
+    left: -0.9rem;
+}
+/* 查看商品图标 */
+.warp-order .store::after{
+    background: url('../../../img/login/right.png') no-repeat;
+    top: -0.8rem;
+    right:-2rem;
+}
+
+/* 待付款 待收货 退换货*/
+.warp-money{
+    justify-content: space-around;
+    text-align: center;
+}
+.warp-money a{
+    text-decoration: none;
+    color: #4D525D;
+}
+.warp-money a>img{
+    transform: scale(0.4);
+}
+.warp-money a>p{
+    margin-top: -1rem;
+}
+
+/* 列表 */
+.warp-list{
+    flex-wrap: wrap;
+}
+.warp-list .list-item{
+    width: 100%;
+}
+.warp-list .list-item:nth-of-type(1),
+.warp-list .list-item:nth-of-type(7){
+    margin:0.5rem 0px;
+}
+.warp-list .items{
+    justify-content: space-between;
+    text-decoration: none;
+    color: #4D525D;
+    padding:0px 1rem;
+}
+.warp-list .items img{
+    transform: scale(0.4);
+    vertical-align: middle;
+}
+
+.warp-list .items .txt-left,
+.warp-list .items .txt-left span{
+    margin-left: -0.6rem;
+}
+
+/* 猜你喜欢文字 */
+section .warp-line{
+    justify-content: space-around;
+    align-items:center;
+    /* 打钩图标参考 */
+    position: relative;
+    margin: 1rem 0px;
+}
+
+.warp-line .line{
+    width: 14%;
+    height:1px;
+    background-color: rgb(110, 109, 109);
+}
+
+.warp-line .txt-line::before{
+    background: url('../../../img/login/true.png') no-repeat;
+    transform: scale(0.4);
+    top: -1.6rem;
+    left: 12%;
+}
+
+/* 猜你喜欢的图书 */
+section .warp-book{
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.warp-book>a{
+    text-decoration: none;
+    margin-bottom: 0.2rem;
+    padding: 0.5rem;
+    width: 44.5%;
+}
+.warp-book>a:nth-of-type(2n-1){
+    margin-right: 0.1rem;
+}
+.warp-book>a>img{
+    width: 50%;
+    height: auto;
+}
+.warp-book>a>p{
+    text-align: left;
+}
+.warp-book .txt-top{
+    color: #232323;
+    margin-bottom: 0.1rem;
+}
+.warp-book .txt-center{
+    color: red;
+    margin-bottom: 0.1rem;
+}
+.warp-book .txt-center>span{
+    border: 1px solid red;
+    border-radius: 1px;
+    padding:0px  0.1rem;
+    font-size: 0.3rem;
+}
+.warp-book .txt-buttom{
+    color: #E53E30;
+    font-size: 0.7rem;
+}
+
+/* 底部 */
+.warp-footer .warp-space{
+    width: 100%;
+    height: 40px;
+    margin: 0.1rem 0px;
+}
+.warp-footer .footer-login {
+    justify-content: space-between;
+    padding: 0px 0.5rem;
+    padding: 0.7rem 0.5rem;
+    /* top箭头图标参考 */
+    position: relative;
+    margin-bottom: 0.1rem;
+}
+
+.warp-footer .warp-register>a,
+.warp-footer .footer-txt p>a{
+    text-decoration: none;
+    margin:0px 0.6rem
+}
+.warp-footer .footer-txt{
+    text-align: center;
+    padding: 0.5rem 0px 0.6rem;
+}
+.warp-footer .footer-txt p:nth-of-type(1){
+    margin-bottom: 0.5rem;
+}
+.warp-footer .footer-txt p:nth-of-type(2){
+    color: #999;
+}
+/* 公共样式 */
+.warp-footer .top,
+.warp-footer .warp-register>a,
+.warp-footer .footer-txt p:nth-of-type(2),
+.warp-footer .footer-txt p>a{
+    color: #4D525D;
+    font-size: 0.8rem;
+}
+
+.v-header,main,
+.warp-list .list-item,
+.warp-footer .warp-space,
+.warp-book>a,
+.warp-footer .footer-login,
+.warp-footer .footer-txt{
+    background-color: white;
+}
+/* 图标样式 */
+.warp-footer .top::after,
+.warp-line .txt-line::before,
+.warp-order .order::before,
+.warp-order .store::after{
+    content: "";
+    width: 5rem;
+    height: 5rem;
+    display: inline-block;
+    position: absolute;
+    transform: scale(0.4); 
+}
+
+.warp-footer .top::after{
+    background: url('../../../img/login/top.png') no-repeat;
+    transform: scale(0.8);
+    top: -0.09rem;
+    right: -1.3rem;
+}
+
+.v-header,.warp-li,.warp-order,
+.warp-money,.warp-list,.warp-list .items,
+section .warp-line,section .warp-book,
+.warp-footer .footer-login{
+    display: flex;
+}
+
+
+
+
+
+

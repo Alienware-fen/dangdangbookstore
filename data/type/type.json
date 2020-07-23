@@ -1,0 +1,7 @@
+{
+    "list":[
+        {"src":"data/assets/img/type/list01.png","name":"总榜"},
+        {"src":"data/assets/img/type/list02.png","name":"新书榜"},
+        {"src":"data/assets/img/type/list03.png","name":"小说榜"}
+    ]
+}

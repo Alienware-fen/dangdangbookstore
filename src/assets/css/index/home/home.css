@@ -1,0 +1,537 @@
+/* 图标 */
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+main{
+    padding-bottom: 0px;
+}
+.home nav>img{
+    width:100%;
+}
+
+.home .warp-nav{
+    display: flex;
+    justify-content: space-around;
+    padding:1;
+}
+.home .warp-nav .icon-size{
+    transform: scale(2);
+}
+.warp-nav .warp-search{
+    /* 搜索图标的参考 */
+    position: relative;
+}
+.warp-search .icon-position{
+    text-decoration: none;
+    position: absolute;
+    color: grey;
+    top:20%;
+    left:4%;
+}
+.warp-search input{
+    background-color: #e8ecf0;
+    color: #b5bec5;
+    padding: 7px 5px 7px 25px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
+
+/* 轮播图 */
+.home .banner-img{
+    width: 100%;
+}
+
+.home .swiper-pagination-bullet{
+    width: 5px;
+    height: 15px;
+    transform: rotate(45deg);
+}
+.home .swiper-pagination-bullet-active{
+    background-color: white;
+}
+/* menus */
+.home .home-book{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgba(201, 199, 199, 0.144);
+}
+.home .home-book a{
+    width: 20%;
+}
+.home .home-book img{
+    width:100%;
+}
+
+/* 今日秒杀 */
+.home .home-second>a,
+.home .home-second>a>img{
+    width: 100%;
+}
+.home-second p{
+    font-size: 11px;
+}
+.home-second p>span:nth-of-type(2n-1){
+    display: inline-block;
+    background-color: black;
+    border-radius: 3px;
+    color: white;
+    padding: 3px;
+}
+.home-second p>span:nth-of-type(5){
+    background-color: red;
+}
+/* 今日秒杀轮播图 */
+.home .package-pic{
+    margin-top: 5%;
+}
+.home .package-pic .swiper{
+    padding:0px 3%;
+}
+.home .package-pic .seckill{
+    width: 30%;
+}
+.home .seckill a{
+    text-decoration: none;
+}
+.home .seckill a>img{
+    width: 100%;
+}
+    /* 文字 */
+.home .seckill a>p{
+    text-align: left;
+}
+.home .seckill .title{
+    color: #323232;
+}
+.home .seckill .price{
+    color:#F3344A;
+    font-size: 1rem;
+    margin: 0.2% 0px;
+}
+.home .seckill .disprice{
+    color: #BABABA;
+    font-size: 0.7rem;
+    text-decoration:line-through;
+}
+.home .warp-English{
+    width: 100%;
+    background-color: rgba(194, 191, 191, 0.219);
+    padding:3% 0px;
+}
+.home .warp-English a,
+.home .warp-English img{
+    width: 100%;
+}
+/* 图书城 */
+.home .home-bookCity{
+    border-bottom: 10px solid rgba(194, 191, 191, 0.219);
+}
+.home .home-bookCity,
+.home .home-bookCity>img{
+    width: 100%;    
+}
+.home .home-bookCity .warp-txt{
+    margin:-3% 0px 2% 0px;
+}
+.home .home-bookCity .warp-txt a{
+    text-decoration: none;
+    color: #323232;
+    position: relative;
+    font-size: 12px;
+    margin-right:3%;
+}
+    /* 图标 */
+.home .home-bookCity .warp-txt img{
+    position: absolute;
+    top:-4px;
+    left: 49px;
+    transform: scale(0.4);
+}
+.home .home-bookCity .warp-txt .img-center{
+    left: 35px;
+}
+/* 书城item */
+.home .bookItem{
+    background-color:rgba(194, 191, 191, 0.219);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+    /* 文字 */
+.home .bookItem a{
+    width: 33%;
+    background-color:white;
+    text-decoration: none;
+    margin-bottom: 1%;
+    padding-top: 2%;
+}
+.home .bookItem .txt-top{
+    font-size: 0.8rem;
+    color: #323232;
+}
+.home .bookItem .txt-bottom{
+    font-size: 0.6rem;
+}
+.home .bookItem a>img{
+    width: 100%;
+}
+
+/* 服装鞋包 */
+.home .home-cloth{
+    border-bottom: 10px solid rgba(194, 191, 191, 0.219);
+}
+.home .home-cloth>img{
+    width: 100%;
+}
+.home .home-cloth .warp-txt{
+    margin:-3% 0px 2% 0px;
+}
+.home .home-cloth .warp-txt a{
+    text-decoration: none;
+    color: #323232;
+    position: relative;
+    font-size: 12px;
+    margin-right:3%;
+}
+.home .home-cloth .warp-txt img{
+    position: absolute;
+    top:-4px;
+    left: 49px;
+    transform: scale(0.4);
+}
+.home .home-cloth .warp-txt .img-top{
+    left:71px ;
+}
+.home .home-cloth .warp-txt .img-bottom{
+    left: 36px;
+}
+
+/* 衣服Item */
+.home .clothItem {
+    background-color:rgba(194, 191, 191, 0.219);
+}
+
+.home .clothItem .cloth-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.6%;
+}
+.home .clothItem .cloth-top a{
+    display: flex;
+    background-color: white;
+    text-decoration: none;
+    width: 100%;
+}
+.home .cloth-top .top1{
+    margin-right: 0.6%;
+}
+.home .cloth-top .top1 a{
+    height: 100%;
+}
+.home .cloth-top .top1 a>p{
+    padding:7px 5px 0px;
+}
+.home .cloth-top .top1 img{
+    width: 60%;
+    margin-top: 40%;
+    height: 60%;
+    align-items:stretch;
+}
+.home .cloth-top .top2 a{
+    padding:7px 6px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.home .cloth-top .top2 a:nth-of-type(1){
+    margin-bottom: 0.1rem;
+}
+.home .cloth-top .top2 a p{
+    margin:auto 0px;
+}
+
+/* 中间 */
+.home .clothItem .cloth-center,
+.home .clothItem .cloth-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.home .clothItem .cloth-center>a{
+    display: flex;
+    align-items:stretch;
+    background-color: white;
+    text-decoration: none;
+    text-align: left;
+    padding-left: 3%;
+} 
+.home .cloth-center p{
+    margin: auto 0px;
+}
+.home .cloth-top img,
+.home .cloth-center img{
+    width: 50%;
+}
+.home .cloth-center{
+    margin:0.2% 0px;
+}
+/* 底部 */
+.home .clothItem .cloth-bottom>a{
+    width: 25%;
+    background-color: white;
+    text-decoration: none;
+    margin-left: 0.2%;
+}
+.home .clothItem .cloth-bottom>a:nth-of-type(4){
+    margin-left: 0px;
+}
+.home .cloth-bottom img{
+    width: 80%;
+}
+
+/* 文字 */
+.home .clothItem .txt-top{
+    font-size: 0.8rem;
+    color: #323232;
+}
+.home .clothItem .txt-bottom{
+    color: #c72895;
+    font-size: 0.6rem;
+}
+
+/* 聚实惠 */
+.home .home-food>img{
+    width: 100%;
+}
+    /* 文字 */
+.home .home-food .warp-txt{
+    margin:-3% 0px 2% 0px;
+}
+.home .home-food .warp-txt a{
+    text-decoration: none;
+    position: relative;
+    color: #323232;
+    font-size: 12px;
+    margin-right: 0.6rem;
+}
+.home .home-food .warp-txt a>img{
+    position: absolute;
+    transform: scale(0.4);
+    top:-4px;
+    left: 36px;
+}
+.home .home-food .warp-txt .img-top,
+.home .home-food .warp-txt .img-center{
+    left:47px;
+}
+    /* foodItem */
+.home .warp-food{
+    background-color:rgba(194, 191, 191, 0.219);
+}
+    /* 上面的food */
+.home .warp-food .food-top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.7px solid rgba(194, 191, 191, 0.219);
+}
+.home .food-top a{
+    width: 50%;
+    display: flex;
+    align-items: stretch;
+    background-color: white;
+    text-decoration: none;
+    padding-left: 2%;
+}
+.home .food-top a:nth-of-type(1){
+    margin-right: 0.3%;
+}
+.home .food-top p{
+    margin:auto 8% auto 0px;
+}
+.home .food-top p>span:nth-of-type(1){
+    font-size: 0.8rem;
+    color: #323232;
+}
+.home .food-top p>span:nth-of-type(2){
+    font-size: 0.6rem;
+    color:#6770F2;
+}
+.home .food-top a>img{
+    width: 50%;
+}
+
+    /* 底部的food */
+.home .food-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.home .food-bottom a{
+    width: 25%;
+    text-decoration: none;
+    background-color: white;
+    margin-right: 0.3%;
+}
+.home .food-bottom a:nth-of-type(4){
+    margin-right: 0px;
+}
+.home .food-bottom a>img{
+    width: 70%;
+}
+
+.home .food-bottom p>span:nth-of-type(1){
+    font-size: 0.8rem;
+    color: #323232;
+}
+.home .food-bottom p>span:nth-of-type(2){
+    font-size: 0.6rem;
+    color:#6770F2;
+}
+
+/* 猜你喜欢 */
+.home .home-like{
+    background-color:rgba(194, 191, 191, 0.219);
+    position: relative;
+}
+    /* 猜你喜欢文字 */
+.home .home-like>p{
+    font-size: 10px;
+    color: #313C47;
+    padding:4% 0px;
+}
+.home .home-like>p::before{
+    content: "";
+    width: 13%;
+    height: 10%;
+    transform: scale(0.4);
+    position: absolute;
+    top:-80px;
+    left: 70px;
+    background: url('../../../img/home/true.png') no-repeat;
+}
+    /* 图片 */
+.home .home-like .warp-like{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.home .warp-like>a{
+    width: 49.4%;
+    background-color: white;
+    text-decoration: none;
+    color: #232323;
+    margin-bottom: 1%;
+}
+.home .warp-like>a img{
+    width: 100%;
+}
+    /* 图片内的文字 */
+.home .warp-like>a p{
+    padding: 0px 4%;
+    text-align: left;
+}
+.home .warp-like .txt-top{
+    color: #232323;
+    font-size: 10px;
+    height: 26px;
+}
+.home .warp-like .txt-center>span{
+    color: #F23037;
+    font-size: 7px;
+    border-radius: 3px;
+    padding:0.4%;
+    border: 1px solid #F23037;
+}
+.home .warp-like .txt-bottom{
+    color: #E53E30;
+    font-size: 14px;
+}
+
+/* 底部 */
+.home .home-footer{
+    position: relative;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgba(194, 191, 191, 0.219);
+    margin-bottom: 51px;
+}
+.home .home-footer>p{
+    color: #9CA8B6;
+    font-size: 0.4583rem;
+    background-color:rgba(194, 191, 191, 0.219);
+    padding:2% 0px;
+}
+.home .home-footer>p::before{
+    content: "";
+    width: 13%;
+    height: 8%;
+    transform: scale(0.5);
+    position: absolute;
+    top:5px;
+    left: 70px;
+    background: url('../../../img/home/smile.png') no-repeat;
+}
+.home .home-footer>img{
+    width: 100%;
+}
+/* 登陆注册 */
+.home .home-footer .warp-txt{
+    padding: 3% 2%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+    position: relative;
+}
+.home .home-footer .warp-txt>p:nth-of-type(1){
+    background: #ffffff;
+    color: #4d525d;
+    font-size: 0.9rem;
+    margin:auto 0px;
+}
+.home .home-footer .warp-txt>p:nth-of-type(1)>span{
+    margin: 0px 10px;
+}
+.home .home-footer .warp-txt>p:nth-of-type(2)::before{
+    content: "";
+    width: 6%;
+    height: 55%;
+    position: absolute;
+    transform: scale(0.7);
+    top: 16%;
+    right: 11%;
+    background: url("../../../img/login/top.png") no-repeat;
+}
+
+/* 底部文字 */
+.home .warp-footer>p:nth-of-type(1){
+    color: #323232;
+    font-size: 0.7rem;
+    padding:3%;
+}
+.home .warp-footer>p:nth-of-type(1)>span{
+    margin: 0px 3%;
+}
+.home .warp-footer .red{
+    color: #FE435D;
+}
+.home .warp-footer>p:nth-of-type(2),
+.home .warp-footer>p:nth-of-type(3){
+    color: #999;
+    font-size: 0.6rem;
+}
+
+
+/* 公共样式 */
+.home-second p,.home .package-pic .seckill,
+.home .home-bookCity .warp-txt,.home .bookItem .txt-top,
+.home .bookItem .txt-bottom,.home .home-cloth .warp-txt,
+.home .clothItem .cloth-bottom>a,.home .home-food .warp-txt,
+.home .food-bottom a,.home .home-like>p,.home .warp-like>a,
+.home .home-footer>p,.home .home-footer .warp-footer,
+.home .home-footer .warp-footer{
+    text-align: center;
+}

@@ -1,0 +1,31 @@
+.seckill .tabbar{
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left:0px;
+    right: 0px;
+    display: flex;
+    justify-content:space-around;
+    height: 49px;
+    background: #FAFAFA;
+    padding-bottom: 0.5rem;
+    
+}
+.seckill .tabbar a{
+    text-decoration: none;
+    text-align: center;
+}
+.seckill .tabbar a img{
+    transform: scale(0.5);
+}
+.seckill .tabbar a p{
+    color: #2D2B36;
+    font-size: 0.6rem;
+    margin: -32% 0px 20%;
+}
+.seckill .tabbar>.router-link-active{
+    color: pink;
+}
+.seckill .tabbar>.router-link-active>p{
+    color:red;
+}

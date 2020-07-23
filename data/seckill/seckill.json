@@ -1,0 +1,37 @@
+{
+    "zero":[
+        {"src":"data/assets/img/seckill/zero01.jpg","title":"1元秒杀 限量抢购 抢完即止","price":"￥1","disPrice":"￥199","num":"已抢99%"},
+        {"src":"data/assets/img/seckill/zero02.jpg","title":"山海经（白话全译彩图版珍版）","price":"￥5","disPrice":"￥299","num":"已抢89%"},
+        {"src":"data/assets/img/seckill/zero01.jpg","title":"1元秒杀 限量抢购 抢完即止","price":"￥1","disPrice":"￥199","num":"已抢99%"},
+        {"src":"data/assets/img/seckill/zero02.jpg","title":"山海经（白话全译彩图版珍版）","price":"￥5","disPrice":"￥299","num":"已抢89%"},
+        {"src":"data/assets/img/seckill/zero01.jpg","title":"1元秒杀 限量抢购 抢完即止","price":"￥1","disPrice":"￥199","num":"已抢99%"},
+        {"src":"data/assets/img/seckill/zero02.jpg","title":"山海经（白话全译彩图版珍版）","price":"￥5","disPrice":"￥299","num":"已抢89%"},
+        {"src":"data/assets/img/seckill/zero01.jpg","title":"1元秒杀 限量抢购 抢完即止","price":"￥1","disPrice":"￥199","num":"已抢99%"},
+        {"src":"data/assets/img/seckill/zero02.jpg","title":"山海经（白话全译彩图版珍版）","price":"￥5","disPrice":"￥299","num":"已抢89%"},
+        {"src":"data/assets/img/seckill/zero01.jpg","title":"1元秒杀 限量抢购 抢完即止","price":"￥1","disPrice":"￥199","num":"已抢99%"},
+        {"src":"data/assets/img/seckill/zero02.jpg","title":"山海经（白话全译彩图版珍版）","price":"￥5","disPrice":"￥299","num":"已抢89%"},
+        {"src":"data/assets/img/seckill/zero01.jpg","title":"1元秒杀 限量抢购 抢完即止","price":"￥1","disPrice":"￥199","num":"已抢99%"},
+        {"src":"data/assets/img/seckill/zero01.jpg","title":"1元秒杀 限量抢购 抢完即止","price":"￥1","disPrice":"￥199","num":"已抢99%"},
+        {"src":"data/assets/img/seckill/zero02.jpg","title":"山海经（白话全译彩图版珍版）","price":"￥5","disPrice":"￥299","num":"已抢89%"}
+    ],
+    "one":[
+        {"src":"data/assets/img/seckill/zero02.jpg","title":"1元秒杀 限量抢购 抢完即止","price":"￥1","disPrice":"￥199","num":"已抢99%"},
+        {"src":"data/assets/img/seckill/zero02.jpg","title":"山海经（白话全译彩图版珍版）","price":"￥5","disPrice":"￥299","num":"已抢89%"},
+        {"src":"data/assets/img/seckill/zero02.jpg","title":"1元秒杀 限量抢购 抢完即止","price":"￥1","disPrice":"￥199","num":"已抢99%"},
+        {"src":"data/assets/img/seckill/zero02.jpg","title":"山海经（白话全译彩图版珍版）","price":"￥5","disPrice":"￥299","num":"已抢89%"},
+        {"src":"data/assets/img/seckill/zero02.jpg","title":"1元秒杀 限量抢购 抢完即止","price":"￥1","disPrice":"￥199","num":"已抢99%"},
+        {"src":"data/assets/img/seckill/zero02.jpg","title":"山海经（白话全译彩图版珍版）","price":"￥5","disPrice":"￥299","num":"已抢89%"},
+        {"src":"data/assets/img/seckill/zero02.jpg","title":"1元秒杀 限量抢购 抢完即止","price":"￥1","disPrice":"￥199","num":"已抢99%"},
+        {"src":"data/assets/img/seckill/zero02.jpg","title":"山海经（白话全译彩图版珍版）","price":"￥5","disPrice":"￥299","num":"已抢89%"},
+        {"src":"data/assets/img/seckill/zero02.jpg","title":"1元秒杀 限量抢购 抢完即止","price":"￥1","disPrice":"￥199","num":"已抢99%"},
+        {"src":"data/assets/img/seckill/zero02.jpg","title":"山海经（白话全译彩图版珍版）","price":"￥5","disPrice":"￥299","num":"已抢89%"},
+        {"src":"data/assets/img/seckill/zero02.jpg","title":"1元秒杀 限量抢购 抢完即止","price":"￥1","disPrice":"￥199","num":"已抢99%"}
+    ],
+    "bala":[
+        {"src":"data/assets/img/seckill/balabala1.jpg","price":"￥15","disPrice":"￥199"},
+        {"src":"data/assets/img/seckill/balabala2.jpg","price":"￥45","disPrice":"￥499"},
+        {"src":"data/assets/img/seckill/balabala3.jpg","price":"￥65","disPrice":"￥399"}
+    ]
+        
+
+}
